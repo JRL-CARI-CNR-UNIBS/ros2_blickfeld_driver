@@ -11,15 +11,15 @@ The Blickfeld ROS2 driver supports all available Blickfeld LiDARs such as Cube 1
 
 The Blickfeld ROS2 driver supports the following ROS2 distribution:
 
-- Foxy Fitzroy
+- Humble
 
 ## Dependencies
 
 Please install the following dependencies on your system in advance.
 
-- [blickfeld-scanner-library (BSL) ](https://docs.blickfeld.com/cube/latest/external/blickfeld-scanner-lib/install.html) with system-wide protobuf installation. This package has been tested using **BSL Version 2.18.2** (minimum version).
+- [blickfeld-scanner-library (BSL) ](https://docs.blickfeld.com/cube/latest/external/blickfeld-scanner-lib/install.html) with system-wide protobuf installation. This package has been tested using **BSL Version 2.18.2** (minimum version). Ubuntu 22.04 only has protobuf23 in apt repositories. 
 
-- [ROS Foxy Installation](https://index.ros.org/doc/ros2/Installation/Foxy/Linux-Install-Debians/) with Ubuntu 20.04
+- [ROS Humble Installation](https://index.ros.org/doc/ros2/Installation/Humble/Linux-Install-Debians/) with Ubuntu 22.04
 - [diagnostic_updater](https://index.ros.org/p/diagnostic_updater/) can be acquired via your distribution's package manager, ${ROS_DISTRO} should be your ROS2 version (which is Foxy Fitzroy or shorten foxy).
 
       $ sudo apt install ros-${ROS_DISTRO}-diagnostic-updater
