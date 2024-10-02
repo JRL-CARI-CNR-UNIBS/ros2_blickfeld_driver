@@ -58,7 +58,9 @@ where ${colcon_workspace} is your custom directory. Move the ros2_blickfeld_driv
 
 ### Switching to desired DDS
 
-**To run Blickfeld Driver as ROS2 node, you need to switch from the default DDS to a compatible one**. This can be done using **either of the two** approaches.
+:bangbang: **To run Blickfeld Driver as ROS2 node, you need to switch from the default DDS (FastDDS) to a compatible one**. :bangbang:
+
+This can be done using **either of the two** approaches.
 
 1. Exporting the RMW_IMPLEMENTATION for the present terminal session
 
