@@ -34,10 +34,10 @@ Please install the following dependencies on your system in advance.
 
 - [colcon](https://colcon.readthedocs.io/en/released/user/installation.html): required for building the workspace
 
-The default DDS of ROS2 Foxy FastRTPS is not compatible with BSL.
-Hence, for ROS2 Foxy, you need to install DDS from other vendors. (e.g., Eclipse Cyclone or RTI Connext)
+The default DDS of ROS2 Humble FastRTPS is not compatible with BSL.
+Hence, for ROS2 Humble, you need to install DDS from other vendors. (e.g., Eclipse Cyclone or RTI Connext)
 
-- [Eclipse Cyclone DDS](https://index.ros.org/doc/ros2/Installation/DDS-Implementations/Working-with-Eclipse-CycloneDDS/): to bypass the default DDS of ROS2 Foxy(FastRTPS)
+- [Eclipse Cyclone DDS](https://index.ros.org/doc/ros2/Installation/DDS-Implementations/Working-with-Eclipse-CycloneDDS/): to bypass the default DDS of ROS2 Humble(FastRTPS)
 
 ## Build
 
